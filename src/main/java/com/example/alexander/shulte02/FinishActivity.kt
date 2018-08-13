@@ -14,8 +14,9 @@ class FinishActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_finish)
 
-        //val finishTextString = getString(R.string.finishText)
-        //finishText.text = finishTextString.replace("{finishTime}", finishTimeString)
+        val finishTime = intent.extras.getString("finishTime")
+        val finishTextString = getString(R.string.finishActivityText)
+        finishText.text = finishTextString.replace("{finishTime}", finishTime)
 
         finishActivityPlayButton.setOnClickListener{
             val gameActivity = Intent(this, GameActivity::class.java)

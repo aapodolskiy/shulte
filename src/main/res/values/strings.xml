@@ -7,7 +7,7 @@
 
     <string name="gameActivityNumberToFind">Next number: {nextNumber}</string>
 
-    <string name="finishActivityText">Your time is: {finishTime} sec.</string>
+    <string name="finishActivityText">Your time is {finishTime} sec.</string>
     <string name="finishActivityPlayButtonText">Play again</string>
     <string name="finishActivityMenuButtonText">Menu</string>
 
