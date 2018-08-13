@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Shulte02</string>
-    <string name="az">jfndkjfnld</string>
-    <string name="dd">ewsdjnskjdnskdnksjdnksj</string>
+    <string name="startText">This is a start page of the application.</string>
+    <string name="finishText">Your time is: {finishTime} sec.</string>
+    <string name="startButtonText">Start</string>
+    <string name="startAgainButtonText">Start again</string>
+    <string name="goToMenuButtonText">To menu</string>
+
+    <string name="menuStartText">Menu</string>
+    <string name="backToMainPageButtonText">Back to main page</string>
 
     <string name="s01">1</string>
     <string name="s02">2</string>

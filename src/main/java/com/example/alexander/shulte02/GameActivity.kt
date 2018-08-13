@@ -3,23 +3,15 @@ package com.example.alexander.shulte02
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_start.*
+import kotlinx.android.synthetic.main.activity_game.*
+import java.util.Date
 
-class MainActivity : AppCompatActivity() {
+class GameActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_start)
-
-        startButton.setOnClickListener {
-            val gameActivity = Intent(this, GameActivity::class.java)
-            startActivity(gameActivity)
-        }
-    }
-/*
-    private fun playClassicGame() {
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_game)
 
         val randomizedArray = (1..25).shuffled()
 
@@ -68,36 +60,16 @@ class MainActivity : AppCompatActivity() {
                         val finishTime = Date().time
                         val totalTime = (finishTime - startTime) / 1000.0
 
-                        finishPageListeners(totalTime.toString())
+                        val finishActivity = Intent(this, FinishActivity::class.java)
+                        startActivity(finishActivity)
+
                     } else {
                         currentNumberToFind.text = nextNumber.toString()
                     }
                 }
             }
         }
+
     }
 
-    private fun startPageListeners() {
-        setContentView(R.layout.activity_start)
-
-        startButton.setOnClickListener {
-            playClassicGame()
-        }
-    }
-
-    private fun finishPageListeners(finishTimeString: String) {
-        setContentView(R.layout.activity_finish)
-
-        val finishTextString = getString(R.string.finishText)
-        finishText.text = finishTextString.replace("{finishTime}", finishTimeString)
-
-        startAgainButton.setOnClickListener{
-            playClassicGame()
-        }
-
-        goToMenuButton.setOnClickListener{
-            startPageListeners()
-        }
-    }
-*/
 }
