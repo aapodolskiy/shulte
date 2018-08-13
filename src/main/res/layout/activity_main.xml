@@ -7,322 +7,8 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <TableLayout
-        android:id="@+id/tableLayout"
-        android:layout_width="362dp"
-        android:layout_height="362dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496">
-
-        <TableRow android:background="#000000">
-
-            <TextView
-                android:id="@+id/view_s01"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
-
-            <TextView
-                android:id="@+id/view_s02"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
-
-            <TextView
-                android:id="@+id/view_s03"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
-
-            <TextView
-                android:id="@+id/view_s04"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
-
-            <TextView
-                android:id="@+id/view_s05"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginRight="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
-        </TableRow>
-
-        <TableRow android:background="#000000">
-
-            <TextView
-                android:id="@+id/view_s06"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
-
-            <TextView
-                android:id="@+id/view_s07"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
-
-            <TextView
-                android:id="@+id/view_s08"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
-
-            <TextView
-                android:id="@+id/view_s09"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
-
-            <TextView
-                android:id="@+id/view_s10"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginRight="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
-        </TableRow>
-
-        <TableRow android:background="#000000">
-
-            <TextView
-                android:id="@+id/view_s11"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
-
-            <TextView
-                android:id="@+id/view_s12"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
-
-            <TextView
-                android:id="@+id/view_s13"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
-
-            <TextView
-                android:id="@+id/view_s14"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
-
-            <TextView
-                android:id="@+id/view_s15"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginRight="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
-        </TableRow>
-
-        <TableRow android:background="#000000">
-
-            <TextView
-                android:id="@+id/view_s16"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
-
-            <TextView
-                android:id="@+id/view_s17"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
-
-            <TextView
-                android:id="@+id/view_s18"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
-
-            <TextView
-                android:id="@+id/view_s19"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
-
-            <TextView
-                android:id="@+id/view_s20"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginRight="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
-        </TableRow>
-
-        <TableRow android:background="#000000">
-
-            <TextView
-                android:id="@+id/view_s21"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
-
-            <TextView
-                android:id="@+id/view_s22"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
-
-            <TextView
-                android:id="@+id/view_s23"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
-
-            <TextView
-                android:id="@+id/view_s24"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
-
-            <TextView
-                android:id="@+id/view_s25"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="2dip"
-                android:layout_marginRight="2dip"
-                android:layout_marginTop="2dip"
-                android:background="#FFFFFF"
-                android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
-        </TableRow>
-
-    </TableLayout>
-
     <TextView
-        android:id="@+id/currentNumberToFind"
+        android:id="@+id/mainActivityStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -332,9 +18,44 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="@string/s01"
-        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        android:text="@string/mainActivityStartText"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/mainActivityPlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/mainActivityPlayButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivityStart"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <Button
+        android:id="@+id/mainActivitySettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/mainActivitySettingsButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivityPlayButton"
+        app:layout_constraintVertical_bias="0.24" />
 </android.support.constraint.ConstraintLayout>

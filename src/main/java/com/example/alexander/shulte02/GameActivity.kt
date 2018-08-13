@@ -47,9 +47,8 @@ class GameActivity : AppCompatActivity() {
 
         var nextNumber = 1
 
-        print(nextNumber)
-
-        currentNumberToFind.text = nextNumber.toString()
+        val currentNumberToFindString = getString(R.string.gameActivityNumberToFind)
+        currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
 
         for (i in 0..24) {
             cells[i].text = randomizedArray[i].toString()

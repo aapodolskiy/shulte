@@ -17,13 +17,13 @@ class FinishActivity : AppCompatActivity() {
         //val finishTextString = getString(R.string.finishText)
         //finishText.text = finishTextString.replace("{finishTime}", finishTimeString)
 
-        startAgainButton.setOnClickListener{
-            val mainActivity = Intent(this, GameActivity::class.java)
-            startActivity(mainActivity)
+        finishActivityPlayButton.setOnClickListener{
+            val gameActivity = Intent(this, GameActivity::class.java)
+            startActivity(gameActivity)
         }
 
-        goToMenuButton.setOnClickListener{
-            val mainActivity = Intent(this, MenuActivity::class.java)
+        finishActivityMenuButton.setOnClickListener{
+            val mainActivity = Intent(this, MainActivity::class.java)
             startActivity(mainActivity)
         }
 
