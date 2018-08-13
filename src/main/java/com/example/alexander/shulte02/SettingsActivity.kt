@@ -1,20 +1,20 @@
 package com.example.alexander.shulte02
 
 import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_menu.*
+import kotlinx.android.synthetic.main.activity_settings.*
 import android.os.Bundle
 import android.content.Intent
 
 
 
-class MenuActivity : AppCompatActivity() {
+class SettingsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_menu)
+        setContentView(R.layout.activity_settings)
 
-        backToMainPageButton.setOnClickListener{
+        settingsActivityMenuButton.setOnClickListener{
             val mainActivity = Intent(this, MainActivity::class.java)
             startActivity(mainActivity)
         }

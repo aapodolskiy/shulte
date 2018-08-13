@@ -1,29 +1,16 @@
 <resources>
     <string name="app_name">Shulte02</string>
-    <string name="startText">This is a start page of the application.</string>
-    <string name="finishText">Your time is: {finishTime} sec.</string>
-    <string name="startButtonText">Start</string>
-    <string name="startAgainButtonText">Start again</string>
-    <string name="goToMenuButtonText">To menu</string>
 
-    <string name="menuStartText">Menu</string>
-    <string name="backToMainPageButtonText">Back to main page</string>
+    <string name="mainActivityStartText">This is a start page of the application.</string>
+    <string name="mainActivityPlayButtonText">Play</string>
+    <string name="mainActivitySettingsButtonText">Settings</string>
 
-    <string name="s01">1</string>
-    <string name="s02">2</string>
-    <string name="s03">3</string>
-    <string name="s04">4</string>
-    <string name="s05">5</string>
-    <string name="s06">6</string>
-    <string name="s07">7</string>
-    <string name="s08">8</string>
-    <string name="s09">9</string>
-    <string name="s10">10</string>
-    <string name="s11">11</string>
-    <string name="s12">12</string>
-    <string name="s13">13</string>
-    <string name="s14">14</string>
-    <string name="s15">15</string>
-    <string name="s16">16</string>
-    <string name="s17">17</string>
+    <string name="gameActivityNumberToFind">Next number: {nextNumber}</string>
+
+    <string name="finishActivityText">Your time is: {finishTime} sec.</string>
+    <string name="finishActivityPlayButtonText">Play again</string>
+    <string name="finishActivityMenuButtonText">Menu</string>
+
+    <string name="settingsActivityText">Settings</string>
+    <string name="settingsActivityMenuButtonText">Menu</string>
 </resources>

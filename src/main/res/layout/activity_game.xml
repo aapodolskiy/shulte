@@ -34,8 +34,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s02"
@@ -45,8 +44,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s03"
@@ -56,8 +54,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s04"
@@ -67,8 +64,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s05"
@@ -79,8 +75,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
+                android:padding="3dip" />
         </TableRow>
 
         <TableRow android:background="#000000">
@@ -93,8 +88,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s07"
@@ -104,8 +98,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s08"
@@ -115,8 +108,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s09"
@@ -126,8 +118,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s10"
@@ -138,8 +129,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
+                android:padding="3dip" />
         </TableRow>
 
         <TableRow android:background="#000000">
@@ -152,8 +142,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s12"
@@ -163,8 +152,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s13"
@@ -174,8 +162,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s14"
@@ -185,8 +172,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s15"
@@ -197,8 +183,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
+                android:padding="3dip" />
         </TableRow>
 
         <TableRow android:background="#000000">
@@ -211,8 +196,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s17"
@@ -222,8 +206,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s18"
@@ -233,8 +216,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s19"
@@ -244,8 +226,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s20"
@@ -256,8 +237,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
+                android:padding="3dip" />
         </TableRow>
 
         <TableRow android:background="#000000">
@@ -270,8 +250,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s01" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s22"
@@ -281,8 +260,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s02" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s23"
@@ -292,8 +270,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s03" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s24"
@@ -303,8 +280,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s04" />
+                android:padding="3dip" />
 
             <TextView
                 android:id="@+id/view_s25"
@@ -315,8 +291,7 @@
                 android:layout_marginTop="2dip"
                 android:background="#FFFFFF"
                 android:gravity="center"
-                android:padding="3dip"
-                android:text="@string/s05" />
+                android:padding="3dip" />
         </TableRow>
 
     </TableLayout>
@@ -332,9 +307,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="@string/s01"
+        android:text="@string/gameActivityNumberToFind"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
 </android.support.constraint.ConstraintLayout>
