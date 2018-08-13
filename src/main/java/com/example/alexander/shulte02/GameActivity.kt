@@ -59,7 +59,11 @@ class GameActivity : AppCompatActivity() {
                         val finishTime = Date().time
                         val totalTime = (finishTime - startTime) / 1000.0
 
+                        val extras = Bundle()
+                        extras.putString("finishTime", totalTime.toString())
+
                         val finishActivity = Intent(this, FinishActivity::class.java)
+                        finishActivity.putExtras(extras)
                         startActivity(finishActivity)
 
                     } else {
