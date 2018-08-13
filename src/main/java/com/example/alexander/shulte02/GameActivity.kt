@@ -63,7 +63,7 @@ class GameActivity : AppCompatActivity() {
                         startActivity(finishActivity)
 
                     } else {
-                        currentNumberToFind.text = nextNumber.toString()
+                        currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
                     }
                 }
             }
