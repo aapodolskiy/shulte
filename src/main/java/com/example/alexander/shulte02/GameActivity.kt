@@ -1,5 +1,6 @@
 package com.example.alexander.shulte02
 
+import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -47,8 +48,22 @@ class GameActivity : AppCompatActivity() {
 
         var nextNumber = 1
 
+        val myPreferences = getSharedPreferences("myPreferences", Context.MODE_PRIVATE)
+
+        var showText = true
+        if (myPreferences.contains("other")) {
+            showText = myPreferences.getBoolean("other", true)
+        }
+        else {
+            val editor = myPreferences.edit()
+            editor.putBoolean("other", showText)
+            editor.apply()
+        }
+
         val currentNumberToFindString = getString(R.string.gameActivityNumberToFind)
-        currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
+        if (showText) {
+            currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
+        }
 
         for (i in 0..24) {
             cells[i].text = randomizedArray[i].toString()
@@ -67,7 +82,9 @@ class GameActivity : AppCompatActivity() {
                         startActivity(finishActivity)
 
                     } else {
-                        currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
+                        if (showText) {
+                            currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
+                        }
                     }
                 }
             }

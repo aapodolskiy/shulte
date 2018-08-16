@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/timerSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -34,27 +34,27 @@
         app:layout_constraintTop_toBottomOf="@+id/menuStart" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/soundSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+        app:layout_constraintTop_toBottomOf="@+id/timerSwitch" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/otherSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch2" />
+        app:layout_constraintTop_toBottomOf="@+id/soundSwitch" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/timerSwitchTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -62,14 +62,14 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/switch1"
+        android:text="@string/timerSwitchText"
+        app:layout_constraintEnd_toStartOf="@+id/timerSwitch"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menuStart" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/soundSwitchTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -77,14 +77,14 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/switch2"
+        android:text="@string/soundSwitchText"
+        app:layout_constraintEnd_toStartOf="@+id/soundSwitch"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/timerSwitchTextView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/otherSwitchTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -92,11 +92,11 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/switch3"
+        android:text="@string/otherSwitchText"
+        app:layout_constraintEnd_toStartOf="@+id/otherSwitch"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/soundSwitchTextView" />
 
     <Button
         android:id="@+id/settingsActivityMenuButton"

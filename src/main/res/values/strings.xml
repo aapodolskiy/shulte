@@ -13,4 +13,8 @@
 
     <string name="settingsActivityText">Settings</string>
     <string name="settingsActivityMenuButtonText">Menu</string>
+
+    <string name="timerSwitchText">Enable timer</string>
+    <string name="soundSwitchText">Enable sound</string>
+    <string name="otherSwitchText">Enable smth other</string>
 </resources>
