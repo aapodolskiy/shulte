@@ -5,6 +5,10 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_game.*
+import android.app.Activity
+import java.io.File
+import java.io.OutputStreamWriter
+import java.io.IOException
 import java.util.Date
 
 class GameActivity : AppCompatActivity() {
@@ -72,10 +76,20 @@ class GameActivity : AppCompatActivity() {
                     nextNumber++
                     if (nextNumber == 26) {
                         val finishTime = Date().time
-                        val totalTime = (finishTime - startTime) / 1000.0
+                        val totalTime = ((finishTime - startTime) / 10 ) / 100.0
 
                         val extras = Bundle()
                         extras.putString("finishTime", totalTime.toString())
+
+                        val fileName = "shulteResults.txt"
+                        try {
+                            val fileWriter = OutputStreamWriter(openFileOutput(fileName, Activity.MODE_APPEND))
+                            fileWriter.append(totalTime.toString() + "\n")
+                            fileWriter.flush()
+                            fileWriter.close()
+                        }
+                        catch (e: IOException) {
+                        }
 
                         val finishActivity = Intent(this, FinishActivity::class.java)
                         finishActivity.putExtras(extras)
