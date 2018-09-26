@@ -21,7 +21,6 @@ class FinishActivity : AppCompatActivity() {
         val finishTextString = getString(R.string.finishActivityText)
         finishText.text = finishTextString.replace("{finishTime}", finishTime)
 
-        /*
         val fileName = "shulteResults.txt"
         if (fileList().contains(fileName)) {
             try {
@@ -41,7 +40,6 @@ class FinishActivity : AppCompatActivity() {
                 finishText.text = e.message
             }
         }
-        */
 
         finishActivityPlayButton.setOnClickListener{
             val gameActivity = Intent(this, GameActivity::class.java)

@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_game.*
 import android.app.Activity
-import java.io.File
 import java.io.OutputStreamWriter
 import java.io.IOException
 import java.util.Date
