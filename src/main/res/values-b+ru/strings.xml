@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shulte02</string>
+
+    <string name="mainActivityStartText">Стартовая страница приложения.</string>
+    <string name="mainActivityPlayButtonText">Играть</string>
+    <string name="mainActivitySettingsButtonText">Настройки</string>
+
+    <string name="gameActivityNumberToFind">Следующее число: {nextNumber}</string>
+
+    <string name="finishActivityText">Ваше время: {finishTime} сек.</string>
+    <string name="finishActivityPlayButtonText">Играть снова</string>
+    <string name="finishActivityMenuButtonText">Меню</string>
+
+    <string name="settingsActivityText">Настройки</string>
+    <string name="settingsActivityMenuButtonText">Меню</string>
+
+    <string name="timerSwitchText">Таймер</string>
+    <string name="soundSwitchText">Звук</string>
+    <string name="otherSwitchText">Показывать следующее число</string>
+</resources>

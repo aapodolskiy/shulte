@@ -67,6 +67,9 @@ class GameActivity : AppCompatActivity() {
         if (showText) {
             currentNumberToFind.text = currentNumberToFindString.replace("{nextNumber}", nextNumber.toString())
         }
+        else {
+            currentNumberToFind.text = ""
+        }
 
         for (i in 0..24) {
             cells[i].text = randomizedArray[i].toString()

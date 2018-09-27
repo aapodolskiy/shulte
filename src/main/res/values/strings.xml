@@ -16,5 +16,5 @@
 
     <string name="timerSwitchText">Enable timer</string>
     <string name="soundSwitchText">Enable sound</string>
-    <string name="otherSwitchText">Enable smth other</string>
+    <string name="otherSwitchText">Show next number</string>
 </resources>
